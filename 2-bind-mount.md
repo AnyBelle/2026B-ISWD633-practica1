@@ -34,5 +34,4 @@ docker stop nginx
 docker rm nginx
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 Al crear nuevamente el contenedor con el mismo bind mount e ingresar a http://localhost:8080, se muestra otra vez la página del template. Esto ocurre porque los archivos permanecen guardados en la carpeta html de mi computador y no se eliminan al borrar el contenedor. El nuevo contenedor accede a esos mismos archivos mediante el montaje.
