@@ -30,7 +30,6 @@ El archivo index.html original del contenedor queda oculto por el bind mount. No
 Al ingresar nuevamente a http://localhost:8080, se muestra la página web del template descargado. Gracias al bind mount, Nginx accede a los archivos que descomprimí en mi carpeta html y los muestra sin necesidad de recrear el contenedor.
 
 ### Eliminar el contenedor
-docker stop nginx
 docker rm nginx
 
 ### ¿Qué sucede al crear nuevamente un contenedor montado al directorio definidos anteriormente?
