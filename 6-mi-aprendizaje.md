@@ -1,7 +1,4 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado o utilizó otros comandos que no se mencionan al realizar la práctica también se debe documentar.
-
+# COMPLETAR
 ### Principales aprendizajes logrados
 Antes de realizar la práctica, tenía conocimientos básicos sobre Docker, pero no comprendía claramente cómo conservar la información de los contenedores ni cómo conectar varios servicios. Después de realizar los ejercicios, aprendí a crear, detener y eliminar contenedores, configurar variables de entorno y publicar puertos para acceder a las aplicaciones desde el navegador. También aprendí a diferenciar los bind mounts, los volúmenes nombrados y los volúmenes anónimos. Con los bind mounts comprobé que un contenedor puede utilizar archivos de una carpeta de mi computador. Mientras que con los volúmenes nombrados comprendí cómo Docker administra el almacenamiento sin que sea necesario indicar una ruta del host. Además, identifiqué que los volúmenes anónimos reciben un identificador generado por Docker.Por último, otro aprendizaje fue al eliminar y recrear el contenedor de WordPress, comprobé que el sitio, el tema y la entrada se conservaban gracias al almacenamiento persistente.
 
